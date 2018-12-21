@@ -2,7 +2,7 @@
 
 <img src="https://github.com/Puneet2000/Agent-DOoM/blob/master/pic.png" width="500">
 
-This is a RL Agent trained to play **Doom Deadly Corridor**. The Agent is trained using a [Double Deep Q-Learning](https://arxiv.org/pdf/1509.06461.pdf) with [Duel Architecture](https://arxiv.org/pdf/1511.06581.pdf) and [Prioritized Experience Replay](https://arxiv.org/pdf/1511.05952.pdf).
+This is a RL Agent that learns to play **Doom Deadly Corridor**. The Agent is trained using a [Double Deep Q-Learning](https://arxiv.org/pdf/1509.06461.pdf) with [Duel Architecture](https://arxiv.org/pdf/1511.06581.pdf) and [Prioritized Experience Replay](https://arxiv.org/pdf/1511.05952.pdf).
 
 **Requirements**
 - [VizDoom (Doom's Enviornment)](https://github.com/mwydmuch/ViZDoom/blob/master/doc/Building.md)
@@ -42,6 +42,6 @@ This is a RL Agent trained to play **Doom Deadly Corridor**. The Agent is traine
 | ```--graph```  | Draw summary graph | False |
 | ```--test``` | Generate test video | False |
 
-**Note 1 : Default Paramemters are used for training**
+**Note 1 : Default hyper-paramemters are used for training**
 
 **Note 2: This Agent is trained only for 1 Hour on GPU and it has learned to escape from two enemies . Further training is needed to reach optimal policy**
