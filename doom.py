@@ -31,7 +31,7 @@ parser.add_argument('--discount_factor', type=float,help='Discounting factor for
 parser.add_argument('--pretrain_length', type=int,help='number of iterations to fill replay memory',default=10000)
 parser.add_argument('--mem_size', type=int,help='Size of the replay memory',default=10000)
 parser.add_argument('--train', type=bool,help='want to train or not',default=False)
-parser.add_argument('--args.batch_size', type=int,help='Batch size to sample from replay memory',default=64)
+parser.add_argument('--batch_size', type=int,help='Batch size to sample from replay memory',default=64)
 parser.add_argument('--gpu', type=bool,help='Use GPU',default=False)
 parser.add_argument('--weights', type=str,help='load pretrained weights',default=None)
 parser.add_argument('--save_weights', type=bool,help='save the DQN weights',default=False)
