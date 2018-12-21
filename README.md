@@ -1,5 +1,7 @@
 ## Agent-DOoM
 
+<img src="https://github.com/Puneet2000/Agent-DOoM/blob/master/pic.png" width="500">
+
 This is a RL Agent trained to play **Doom Deadly Corridor**. The Agent is trained using a [Double Deep Q-Learning](https://arxiv.org/pdf/1509.06461.pdf) with [Duel Architecture](https://arxiv.org/pdf/1511.06581.pdf) and [Prioritized Experience Replay](https://arxiv.org/pdf/1511.05952.pdf).
 
 **Requirements**
